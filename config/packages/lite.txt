@@ -1,0 +1,135 @@
+# NovaForge Lite - Base Packages
+# Optimized for 2GB RAM, low-end hardware, VMware
+
+# ==================== CORE ====================
+base
+base-devel
+linux
+linux-firmware
+systemd
+systemd-sysvcompat
+dbus
+glibc
+
+# ==================== MINIMAL LIBRARIES ====================
+glib2
+gtk3
+qt5-base
+libx11
+libxrender
+libxrandr
+libxcursor
+Mesa
+libglvnd
+
+# ==================== COMPRESSION ====================
+zstd
+xz
+lz4
+zlib
+p7zip
+unzip
+
+# ==================== NETWORKING ====================
+openssl
+curl
+wget
+openssh
+net-tools
+
+# ==================== FILESYSTEM ====================
+e2fsprogs
+ntfs-3g
+fuse2
+gvfs
+
+# ==================== GRAPHICS (VMware optimized) ====================
+libva
+libva-intel-driver
+xf86-video-vmware
+xf86-video-vesa
+open-vm-tools
+xf86-input-vmmouse
+
+# ==================== FONTS ====================
+ttf-dejavu
+noto-fonts
+cantarell-fonts
+
+# ==================== ICONS ====================
+adwaita-icon-theme
+breeze-icons
+
+# ==================== SDDM (Display Manager) ====================
+sddm
+sddm-kcm
+
+# ==================== XORG ====================
+xorg-server
+xorg-apps
+xorg-xinit
+xterm
+xf86-input-libinput
+xf86-video-intel
+
+# ==================== WAYLAND ====================
+wayland
+wayland-protocols
+kwin-wayland
+egl-wayland
+
+# ==================== KDE PLASMA (Light) ====================
+plasma-desktop
+plasma-workspace
+plasma-framework
+breeze
+kwin-wayland
+kscreen
+ksysguard
+powerdevil
+systemsettings
+polkit-kde-agent-1
+khotkeys
+
+# ==================== APPS (Light) ====================
+dolphin
+konsole
+kwrite
+kfind
+ark
+spectacle
+
+# ==================== NETWORK ====================
+networkmanager
+plasma-nm
+firefox
+
+# ==================== BLUETOOTH ====================
+bluez
+bluez-utils
+bluedevil
+
+# ==================== AUDIO ====================
+pulseaudio
+pulseaudio-alsa
+alsa-utils
+
+# ==================== VIDEO ====================
+vlc
+mpv
+
+# ==================== GAMING ====================
+steam
+gamemode
+
+# ==================== TOOLS ====================
+neofetch
+htop
+vim
+
+# ==================== DEVELOPMENT ====================
+git
+python
+
+# ==================== SECURITY ====================
+polkit

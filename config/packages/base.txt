@@ -1,0 +1,984 @@
+# NovaForge OS Base Packages
+# Core system packages
+
+# Base
+base
+base-devel
+linux
+linux-firmware
+intel-ucode
+amd-ucode
+
+# System tools
+systemd
+systemd-sysvcompat
+dbus
+dbus-broker
+glibc
+gcc-libs
+gcc
+make
+cmake
+ autoconf
+ automake
+ diffutils
+ patch
+ pkgconf
+
+# Libraries
+glib2
+gtk3
+gtk4
+qt5-base
+qt6-base
+libdbus
+libx11
+libxext
+libxi
+libxrender
+libxrandr
+libxfixes
+libxcursor
+libxinerama
+libx composite
+libxdamage
+libxfixes
+ Mesa
+ libglvnd
+ vulkan-intel
+ vulkan-radeon
+ vulkan-validation-layers
+ mesa-demos
+ opencl-mesa
+
+# Compression
+zstd
+ xz
+ lz4
+ zlib
+ bzip2
+ libarchive
+ p7zip
+ unrar
+ unzip
+
+# Networking
+openssl
+ libssh2
+ cURL
+ wget
+ openssh
+ inetutils
+ net-tools
+ traceroute
+ whois
+ bind-tools
+
+# Filesystem
+e2fsprogs
+ntfs-3g
+exfat-utils
+fuse2
+fuse3
+gvfs
+gptfdisk
+parted
+gdisk
+
+# Time
+tzdata
+ systemd-time-shim
+
+# Locale
+glibc-locales
+
+# Graphics
+libva
+libva-intel-driver
+libva-amdvlk-driver
+vulkan-tools
+vulkan-validation-layers
+shaderc
+spirv-tools
+ renderdoc
+ mangohud
+ mangohud-libs
+ lib32-mangohud
+
+# Gaming
+gamemode
+ lib32-gamemode
+
+# Fonts
+ttf-dejavu
+ttf-liberation
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+cantarell-fonts
+adobe-source-code-pro-fonts
+droid-fonts
+ terminus-font
+ ttf-fira-code
+ JetBrainsMono
+ Roboto
+ Inter
+
+# Icons
+adwaita-icon-theme
+breeze-icons
+ papirus-icon-theme
+ numix-icon-theme
+ la-capitaine-icon-theme
+
+# Cursor
+breeze-cursor
+ papirus-cursor-theme
+
+# Themes
+kde-gtk-config
+breeze-gtk
+ arc-kde
+ nordic-darker-theme
+ catppuccin-gtk-breeze
+ matchagtk
+ macOSBreeze
+
+# Plymouth (boot splash)
+plymouth
+ libbs2b
+
+# SDDM (display manager)
+sddm
+sddm-kcm
+
+# Xorg
+xorg-server
+xorg-apps
+xorg-protocols
+xorg-xauth
+xorg-xinit
+xterm
+ xorg-xinput
+ xorg-xrandr
+ xf86-input-libinput
+ xf86-video-intel
+ xf86-video-amdgpu
+ xf86-video-nouveau
+ xf86-video-vesa
+ xf86-video-vmware
+ open-vm-tools
+ xf86-input-vmmouse
+
+# Wayland
+wayland
+wayland-protocols
+libwlroots
+kwin
+egl-wayland
+
+# KDE Plasma Desktop
+plasma-desktop
+plasma-workspace
+plasma-framework
+plasma-integration
+plasma-themes
+breeze
+kactivitymanagerd
+kde-cli-tools
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+khotkeys
+kinfocenter
+kscreen
+kscreenlocker
+ksysguard
+kwallet-pam
+kwin-wayland
+kwrited
+milou
+polkit-kde-agent-1
+powerdevil
+systemsettings
+sddm-kcm
+kcm-opengl
+kcm-pkexec
+kcm-sddm
+bluedevil
+bluetooth-autoconnect
+kblueetooth
+kdeconnect
+kdenetworkfilesharing
+kioclient
+kimap
+kldap
+kmail
+knm
+kontact
+korganizer
+mtpfs
+libkmtp
+
+# Applications
+dolphin
+dolphin-plugins
+konsole
+kate
+kwrite
+kf5-docs-generation
+kfind
+kfloppy
+kgpg
+kleopatra
+okular
+ark
+filelight
+ksysguard
+ksystemstats
+spectacle
+kcolorchooser
+kiconedit
+kolourpaint
+kmix
+krecord
+kscd
+kget
+kde-connect
+telepathy-kde
+
+# Network
+networkmanager
+plasma-nm
+mobile-broadband-provider-info
+dhclient
+iptables
+firewalld
+nftables
+ipset
+traceroute
+whois
+tcpdump
+ wireshark-cli
+dnsmasq
+firefox
+chromium
+links
+w3m
+lynx
+
+# Bluetooth
+bluez
+bluez-utils
+bluez-tools
+bluez-qt
+bluedevil
+pulseaudio-bluetooth
+
+# Audio
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-jack
+pulseaudio-lirc
+pulseaudio-zeroconf
+alsa-utils
+alsa-plugins
+alsa-lib
+alsa-firmware
+sof-firmware
+libpulse
+pasystray
+pavucontrol
+ponymix
+volctl
+speaker-test
+
+# Video
+ffmpeg
+mpv
+vlc
+mplayer
+smplayer
+smplayer-skins
+ HandBrake
+ HandBrake-cli
+ obs-studio
+ libobs
+ qstopmotion
+ kdenlive
+ ffmpegthumbs
+
+# Printing
+cups
+cups-pdf
+cups-filters
+system-config-printer
+hplip
+epson-inkjet-printer-utility
+
+# Drivers
+vulkan-radeon
+vulkan-intel
+vulkan-nouveau
+libva-intel-driver
+libva-amdvlk-driver
+opencl-mesa
+lib32-mesa
+lib32-vulkan-radeon
+lib32-vulkan-intel
+lib32-opencl-mesa
+
+# Gaming
+steam
+heroic-games-launcher
+mangoapp
+lutris
+gamescope
+ proton
+ proton-ge
+ proton-qt
+ GE-Proton
+ wine
+ wine-mono
+ wine-gecko
+ winetricks
+ playonlinux
+ esync
+ fsync
+
+# Emulation
+pcsxr
+pcsx2
+ppsspp
+dolphin-emu
+citra-emu
+ryujinx
+yuzu
+cemu
+ cemu-ui-bin
+ cemu-hook
+ cemu-tools
+openshit
+OpenRA
+supertux
+supertuxkart
+openttd
+citybound
+minetest
+minetest-server
+minetest-game
+0ad
+0ad-data
+alephone
+
+# Tools
+neofetch
+htop
+btop
+glances
+bashtop
+nvtop
+amdstat
+nvidiastat
+gpustat
+cpupower-gui
+psensors
+lm_sensors
+pcm
+tlp
+tlp-rdw
+acpi
+acpid
+anacron
+cronie
+fcron
+
+# Development
+git
+git-lfs
+github-cli
+tig
+gitk
+mercurial
+subversion
+ Bazaar
+ cvs
+ autoconf
+ automake
+ bison
+ flex
+ gcc
+ gcc-fortran
+ gcc-ada
+ gcc-go
+ clang
+ lld
+ llvm
+ cmake
+ ninja
+ meson
+ make
+ pkgconf
+ autoconf
+ automake
+ libtool
+ m4
+ perl
+ python
+ python-pip
+ python-setuptools
+ python-wheel
+ python-poetry
+ python-pipenv
+ nodejs
+ npm
+ yarn
+ deno
+ go
+ rustup
+ cargo
+ ruby
+ gem
+ php
+ composer
+ perl-app-cpanminus
+ perl Mojolicious
+ perl-template-toolkit
+
+# Code editors
+code
+ code-features
+vscode
+vscodium
+atom
+sublime-text-4
+notepadqq
+
+# Databases
+postgresql
+mariadb
+sqlite
+sqlitebrowser
+redis
+mongod
+ couchdb
+ influxdb
+ grafana
+ prometheus
+
+# Containers
+docker
+docker-compose
+podman
+buildah
+skopeo
+crun
+runc
+docker-gen
+docker-buildx
+minikube
+kind
+k3sup
+helm
+terraform
+ansible
+
+# Cloud
+aws-cli
+google-cloud-sdk
+azure-cli
+digitalocean-cli
+linode-cli
+oci-cli
+backblaze-b2-cli
+
+# Web servers
+nginx
+apache
+httpd
+lighttpd
+caddy
+varnish
+
+# Proxies
+squid
+tinyproxy
+mitmproxy
+proxychains-ng
+
+# Security
+gpg
+pass
+passwdsafe
+keepassxc
+bitwarden
+secret-service
+gnome-keyring
+keychain
+ kwalletmanager
+ kwallet
+ polkit
+ polkit-kde
+firejail
+ apparmor
+ selinux-tools
+ audit
+ tripwire
+ aide
+ chkrootkit
+ rkhunter
+ clamav
+ clamav-unofficial-sigs
+
+# Encryption
+cryptsetup
+ VeraCrypt
+truecrypt
+gocryptfs
+age
+age-plugin-yubikey
+ openssl
+ stunnel
+ ecryptfs
+
+# Backup
+rsync
+rclone
+borg
+duplicati
+timeshift
+backintime
+rsnapshot
+
+# Compression
+p7zip
+peazip
+ark
+file-roller
+xarchiver
+
+# Media
+gimp
+gimp-data
+gimp-help-en
+inkscape
+krita
+blender
+HandBrake
+audacity
+audacity-ffmpeg
+lmms
+qtractor
+hydrogen
+rosegarden
+musescore
+ardour
+audacity
+mplayer2
+
+# Office
+libreoffice-fresh
+libreoffice-still
+libreoffice-help-en
+libreoffice-extension-texmaths
+libreoffice-daily
+
+# Education
+kalzium
+kig
+kmplot
+kanagram
+kgeography
+ktouch
+minedu
+ R-project
+ RStudio
+
+# Science
+scipy
+numpy
+pandas
+matplotlib
+jupyter-notebook
+jupyter-lab
+spyder
+spyder-line-profiler
+spyder-memory-profiler
+spyder-unittest
+
+# Games (normal)
+kmines
+ksudoku
+katomic
+kblocks
+bovo
+kapman
+kbreakout
+klines
+knetwalk
+kolision
+kpat
+kreversi
+kshisen
+ksirk
+ksmiletris
+ksnake
+ksquares
+ksystemlog
+ktuberling
+kuick
+龙门镇
+kolf
+konquest
+killbots
+
+# Others
+steam-native-runtime
+gamescope-session
+lutris
+heroic-games-launcher-bin
+ Bottles
+ ProtonUp-Qt
+ Legendary
+ Galaxy
+ Epic-Games-Launcher
+ itch
+ 0 A.D.
+ OpenRA
+ SuperTux
+ SuperTuxKart
+ OpenTTD
+ Minetest
+ Citybound
+ Atomix
+
+# Fonts extra
+ttf-weather-icons
+ttf-inconsolata
+ttf-roboto
+ttf-opensans
+ttf-caladea
+ttf-carlito
+ttf-cormorant
+ttf-dejavu
+ttf-droid
+ttf-fira-mono
+ttf-fira-sans
+ttf-gentium
+ttf-gentium-basic
+ttf-ibm-plex-mono
+ttf-ibm-plex-sans
+ttf-inconsolata
+ttf-jetbrains-mono
+ttf-lato
+ttf-liberation
+ttf-linux-libertine
+ttf-merriweather
+ttf-microsoft-flow
+ttf-monoid
+ttf-mplus
+ttf-nerd-fonts-mono
+ttf-noto-color-emoji
+ttf-noto-emoji
+ttf-opensans
+ttf-oswald
+ttf-overpass
+ttf-proggy-clean
+ttf-roboto-mono
+ttf-source-code-pro
+ttf-ubuntu-font-family
+ttf-yanone-kaffeesatz
+otf-alumni-icons
+otf-font-awesome
+otf-ipafont
+otf-nerd-fonts
+woff
+woff2
+adobe-source-han-sans
+adobe-source-han-serif
+adobe-blank
+an-x
+anonymousPro
+arch-font
+artwiz-alecz
+artwiz-en
+avinat
+binner-dt
+bitstream-vera
+bodoni-diana
+booker-iconfont
+bousk
+browallia
+buran
+cabin
+carlito
+charis
+cherry-w
+chivo
+clarfont
+clever
+cm-unicode
+comfortaa
+comic-neue
+comunity
+cozette
+cramps
+creep
+crossfont
+cutive
+dana
+decode
+deep-opensource
+din
+droid
+drops
+ebgaramond
+ec-decode
+edition-icon
+ektype
+elusive-icons
+entypo
+epoxy
+etc
+fantasque
+fira
+fira-code
+flexo
+foxy
+franchise
+freefont
+gelasio
+ghost
+glyphs
+go
+google-fonts
+hasklig
+hazel
+helloween
+hermit
+hooge
+hunkyfonts
+imfell
+imperator
+inconsolata
+inkbox
+inkstamp
+input
+iosevka
+jetbrains-mono
+jikon
+junicode
+junior
+karmawoff
+keenicon
+kikor
+latinmodern
+latinmodern-math
+latex-gentle
+league-gothic
+leaves
+librerareader
+libre-baskerville
+libre-caslon
+ libre-franklin
+linux-libertman
+literata
+local字体
+lovers
+lto
+lucon
+luxi
+madamesans
+meate
+mediafont
+melima
+mervana
+metrics
+mfaq
+mixfont
+mplus
+nanum
+nerd-fonts
+nevis
+nimbus
+nimbu
+nonotama
+nosotrar
+notal
+noto
+noto-serif-cjk-tc
+nratically
+nta-ext
+open-sans-proper
+open-sans
+openbasket
+opensymbol
+optimer
+orbitron
+ori
+oswald
+oxygen
+padybrush
+pagesans
+pangolin
+papyrus
+paratype
+parchment
+passion
+patriot
+peddana
+philosopher
+pirata
+playbox
+plextab
+pomera
+poth
+prociono
+prompt
+prosto
+public-sans
+punk
+purisa
+quantum
+quattroquatros
+que
+quicksand
+radlm
+raleway
+ramaraja
+rancho
+recurs
+redhat
+redrose
+roboto
+roboto-mono
+rochester
+rodina
+rose
+ruda
+rukeles
+russo
+sade
+saga
+sahale
+sail
+salsa
+sanchez
+sansbar
+santel
+satosans
+sax2
+scada
+scheherazade
+schoolbell
+secular-one
+semester
+sendak
+shadows
+sharpsans
+shell
+shiman
+shinonome
+signal
+sil-gentium
+signature
+silmaril
+sora
+spark
+spectral
+spyken
+standard-symbols
+stick
+sui
+sulphur
+sumana
+sun-exta
+swak
+symbols
+synmico
+t1unix
+tamil
+taprom
+tempora
+tenorby
+terminus
+tex-gyre
+theano
+tinos
+titan
+titles
+titivius
+titling
+tmesis
+tope
+torexp
+tp
+trajan
+trata
+tratt
+trebuchet
+trice
+triplicate
+tripneo
+trisquel
+tsacu
+tsang
+tsou
+tulpen
+tw
+typo
+tuffy
+turing
+ubuntu
+ubuntu-title
+unbat
+uncial
+unicode
+uniimage
+unifont
+unifraktur
+unique
+universe
+unking
+uno
+valdeck
+vardana
+vazirmatn
+vegur
+venturis
+verana
+vibur
+victor
+viga
+volkhov
+vollkorn
+waabin
+wake
+walkcaps
+wart
+weblyz
+widedot
+widelimit
+wip3
+wippo
+wizan
+wooden
+worldofarch
+wow
+xits
+xyliene
+yale
+yantr
+yellowpeas
+yer
+yusei
+zall
+zeal
+zeni10
+zenon
+zcool-arch
+zcool-kult
+zcool-qing
+zetafonts
+zhi-mang

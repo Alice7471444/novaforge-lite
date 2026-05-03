@@ -1,0 +1,66 @@
+# NovaForge Gaming Packages
+# Additional gaming-specific packages
+
+# Game Launchers
+steam
+heroic-games-launcher
+legendary
+bottles
+
+# Emulators
+citra
+yuzu
+ryujinx
+pcsx2
+ppsspp
+dolphin
+rpcs3
+cemu
+mame
+dgen
+stella
+bsnes
+snes9x
+
+# Wine & Proton
+proton-ge
+proton-qt
+wine-gecko
+wine-mono
+winetricks
+protontricks
+playonlinux
+
+# Tools
+mangohud
+gamescope
+gamemode
+lutris
+modorganizer
+ vortex
+loot
+
+# FPS Overlay
+gamescope
+mangohud
+ccsm
+openra
+
+# Additional
+mangoapp
+epic-games-launcher
+gog-galaxy
+EA-app
+Ubisoft-connect
+battle-net
+Origin
+SteamTinkerLaunch
+
+# Game Drivers
+dxvk
+vdxm
+vkd3d
+dxvk-nvapi
+dxvkd
+spirv-headers
+spirv-cross
