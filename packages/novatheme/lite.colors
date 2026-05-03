@@ -1,0 +1,116 @@
+[General]
+author=NovaForge Team
+version=1.0.0
+description=NovaForge Lite - Lightweight Cyberpunk Theme
+
+[Colors]
+# Primary - Neon Cyan
+AccentColor=#00f0ff
+AccentColor2=#00d4e0
+
+# Secondary - Neon Purple  
+AccentColorAlt=#a855f7
+AccentColorAlt2=#9333ea
+
+# Background - Dark
+BackgroundColor=#0a0a0f
+BackgroundColorAlt=#12121a
+BackgroundColorLight=#1a1a25
+
+# Foreground - Light
+ForegroundColor=#e0e0e8
+ForegroundColorAlt=#a0a0b0
+
+# Window colors
+WindowBackground=#151520
+WindowForeground=#ffffff
+
+# Panel colors
+PanelBackground=#101018
+PanelForeground=#e0e0e8
+
+# Highlight
+HighlightColor=#00f0ff
+HighlightBackground=#00f0ff20
+
+[KDE]
+# Plasma colors
+[Colors: plasma]
+[KDE]
+Contrast=1.04
+Interface=1.04
+# Shadows enabled but lightweight
+Selection=00f0ff
+SelectionBackground=00f0ff30
+
+Window=151520
+WindowText=ffffff
+Button=202030
+ButtonText=e0e0e8
+Link=00f0ff
+LinkVisited=9333ea
+[Colors: Button]
+BackgroundNormal=202030
+BackgroundFocus=303045
+BackgroundHover=252535
+TextNormal=e0e0e8
+TextFocus=00f0ff
+TextHover=ffffff
+DecorationFocus=00f0ff
+DecorationHover=00f0ff
+[Colors: Selection]
+BackgroundNormal=00f0ff30
+BackgroundFocus=00f0ff40
+TextNormal=00f0ff
+TextFocus=00f0ff
+DecorationFocus=00f0ff
+[Colors: Window]
+BackgroundNormal=151520
+BackgroundInactive=101015
+TextNormal=ffffff
+TextInactive=a0a0b0
+DecorationFocus=00f0ff
+DecorationInactive=505060
+
+[Fonts]
+# Lightweight fonts
+# Use system defaults - noto or sans
+DesktopFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+SmallestDesktopFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+ToolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+MenuFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+WindowTitleFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+
+[Icons]
+# Use breeze or adwaita
+desktopScheme=breeze
+iconTheme=breeze
+toolbarIconSize=22
+mainToolbarIconSize=22
+smallToolbarIconSize=16
+
+[WALLPAPER]
+# Default wallpaper
+categories=#
+maxSpectators=1
+wallpaper=novalite
+mode=3
+
+[Effects]
+# Lightweight effects only
+# No heavy blur or particles
+animations=disabled
+blur=disabled
+contrast=disabled
+glow=disabled
+translucency=disabled
+
+[Buttons]
+# Rounded corners if supported
+blurring=false
+noWindowPattern=false
+
+[PanelTask]
+# Compact panel
+showDesktopName=true
+textOverlay=false
